@@ -1,0 +1,16 @@
+name: Deploy Darts
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Deploy app
+        run: |
+          cd /home/media/sites/darts
+          git pull
+          docker compose up -d --build

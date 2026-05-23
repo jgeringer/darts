@@ -1,0 +1,7 @@
+services:
+  darts:
+    build: .
+    container_name: darts
+    ports:
+      - "8082:80"
+    restart: unless-stopped

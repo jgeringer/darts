@@ -780,7 +780,7 @@ function App() {
   return (
     <main className="app-shell">
       <header className="headline">
-        <p className="eyebrow">browser-only scoring</p>
+        <p className="eyebrow">browser-only scoring [wip]</p>
         <h1>Dart Vision</h1>
         <p>
           Perspective normalization, multi-mount calibration profiles, and a dart-specific detector

@@ -16,11 +16,6 @@ function normalizeAngle(angleDeg: number): number {
   return normalized < 0 ? normalized + 360 : normalized
 }
 
-const firstname = 'joe'
-const lastname = 'ger'
-const fullname = `${firstname} ${lastname}`
-
-
 export function scoreFromPoint(
   x: number,
   y: number,
